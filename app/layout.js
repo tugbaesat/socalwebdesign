@@ -1,7 +1,17 @@
-import { Inter } from "next/font/google";
+import { Roboto, Raleway } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: ["400", "500", "700"],
+  variable: "--font-roboto",
+});
+
+const raleway = Raleway({
+  subsets: ["latin"],
+  weight: ["400", "500", "700"],
+  variable: "--font-raleway",
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -11,7 +21,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${roboto.variable} ${raleway.variable} font-sans`}>
+        {children}
+      </body>
     </html>
   );
 }
