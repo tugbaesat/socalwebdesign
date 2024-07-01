@@ -31,7 +31,7 @@ const navLinks = [
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between md:flex-col md:justify-start md:items-start">
+    <nav className="flex items-center justify-between md:flex-col md:justify-start md:items-start font-heading">
       <MobileNavbar navLinks={navLinks} />
       <motion.div
         className="p-2 md:px-2 md:py-4 "
