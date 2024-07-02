@@ -32,9 +32,16 @@ const Services = () => {
       <table className="w-4/5 table-fixed">
         <tbody className="">
           {services.map((service) => (
-            <tr key={service.id} className="border-b-2">
-              <td className="py-16 pl-10 text-3xl font-bold text-dark-primary-text">{service.title}</td>
-              <td className="py-16 pr-10 text-justify">{service.description}</td>
+            <tr
+              key={service.id}
+              className="flex flex-col border-b-2 md:flex-row"
+            >
+              <td className="py-10 text-3xl font-bold md:py-16 md:pl-10 text-dark-primary-text md:w-1/2">
+                {service.title}
+              </td>
+              <td className="py-10 text-justify md:py-16 md:pr-10 md:w-1/2">
+                {service.description}
+              </td>
             </tr>
           ))}
         </tbody>

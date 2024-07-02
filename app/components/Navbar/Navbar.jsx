@@ -33,7 +33,7 @@ const Navbar = () => {
   return (
     <nav className="fixed flex items-center justify-between md:flex-col md:justify-start md:items-start font-navbar">
       <MobileNavbar navLinks={navLinks} />
-      <motion.div
+      {/* <motion.div
         className="p-2 md:px-2 md:py-4 "
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -51,8 +51,8 @@ const Navbar = () => {
             SoCal <br /> Web Design
           </p>
         </Link>
-      </motion.div>
-      <DesktopNavbar navLinks={navLinks} />
+      </motion.div> */}
+      {/* <DesktopNavbar navLinks={navLinks} /> */}
     </nav>
   );
 };
