@@ -18,7 +18,8 @@ module.exports = {
       },
       fontFamily: {
         sans: ["var(--font-roboto)", "sans-serif"],
-        heading: ["var(--font-raleway)", "sans-serif"],
+        navbar: ["var(--font-raleway)", "sans-serif"],
+        heading: ['var(--font-advent-pro)', 'sans-serif'],
       },
     },
   },
