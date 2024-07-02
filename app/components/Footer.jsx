@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <section className="flex flex-col items-center justify-center gap-6 px-16 pb-24 md:flex-row md:px-36">
+    <section className="flex flex-col items-center justify-center gap-6 px-8 py-24 md:flex-row md:px-36">
       <h2 className="text-5xl font-bold text-center md:w-1/2 text-brand-primary md:text-left">
         Let’s work together!
       </h2>

@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Copyright from "./components/Copyright";
 import DesktopNavbar from "./components/Navbar/DesktopNavbar";
 import MobileNavbar from "./components/Navbar/MobileNavbar";
+import Works from "./components/Works";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <div className="pt-36 md:pl-[300px] md:pt-0">
         <Hero />
         <Services />
+        <Works />
         <Footer />
         <Copyright />
       </div>
