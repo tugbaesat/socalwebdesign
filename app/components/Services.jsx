@@ -27,7 +27,7 @@ const services = [
 ];
 const Services = () => {
   return (
-    <section className="flex flex-col items-center justify-center py-36">
+    <section id="services" className="flex flex-col items-center justify-center py-36">
       <h2 className="text-6xl font-bold text-brand-primary">Services</h2>
       <table className="w-4/5 table-fixed">
         <tbody className="">
