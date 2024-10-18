@@ -1,12 +1,10 @@
-import Image from "next/image";
-import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Footer from "./components/Footer";
 import Copyright from "./components/Copyright";
 import DesktopNavbar from "./components/Navbar/DesktopNavbar";
 import MobileNavbar from "./components/Navbar/MobileNavbar";
-import Works from "./components/Works";
+import WorksSection from "./components/Works/WorksSection";
 
 export default function Home() {
   return (
@@ -19,7 +17,7 @@ export default function Home() {
       <div className="pt-36 md:pl-[300px] md:pt-0">
         <Hero />
         <Services />
-        <Works />
+        <WorksSection />
         <Footer />
         <Copyright />
       </div>
