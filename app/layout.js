@@ -20,7 +20,7 @@ const adventPro = Advent_Pro({
 });
 
 export const metadata = {
-  title: "SoCal Web Design",
+  title: "Website Design and Development in Los Angeles, CA | SoCal Web Design",
   description:
     "Based in the heart of Los Angeles, we are dedicated to bringing your vision to life with cutting-edge web solutions tailored to your unique needs. Whether you’re a startup, small business, or established enterprise, we’re here to help you stand out in the digital landscape.",
 };

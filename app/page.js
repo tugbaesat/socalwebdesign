@@ -5,6 +5,7 @@ import Copyright from "./components/Home/Copyright";
 import DesktopNavbar from "./components/Navbar/DesktopNavbar";
 import MobileNavbar from "./components/Navbar/MobileNavbar";
 import WorksSection from "./components/Home/WorksSection";
+import Benefits from "./components/Home/Benefits";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <div className="pt-36 md:pl-[300px] md:pt-0 w-full">
         <Hero />
         <Services />
+        <Benefits />
         <WorksSection />
         <Footer />
         <Copyright />

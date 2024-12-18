@@ -7,24 +7,29 @@ import DesktopNavbar from "./DesktopNavbar";
 import Image from "next/image";
 
 const navLinks = [
-  {
-    title: "Home",
-    id: 1,
-    path: "/#home",
-  },
+  // {
+  //   title: "Home",
+  //   id: "home",
+  //   path: "/#home",
+  // },
   {
     title: "Services",
-    id: 2,
+    id: "services",
     path: "/#services",
   },
   {
+    title: "Why Us?",
+    id: "why",
+    path: "/#benefits",
+  },
+  {
     title: "Works",
-    id: 3,
+    id: "works",
     path: "/#works",
   },
   {
     title: "Contact",
-    id: 4,
+    id: "contact",
     path: "/#contact",
   },
 ];

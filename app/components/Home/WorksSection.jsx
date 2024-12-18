@@ -8,7 +8,7 @@ const WorksSection = () => {
   const router = useRouter();
 
   const handleClick = (id) => {
-    router.push(`/crossfit-the-arena`);
+    router.push(`/the-arena`);
   };
 
   return (
@@ -16,7 +16,7 @@ const WorksSection = () => {
       id="works"
       className="flex flex-col items-center justify-center gap-6 py-20 bg-light-bg"
     >
-      <h2 className="text-6xl font-bold text-brand-primary">Works</h2>
+      <h2 className="text-6xl font-extrabold text-brand-primary">Works</h2>
       <ul>
         {worksData.map((work) => (
           <li

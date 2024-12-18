@@ -5,29 +5,7 @@ import MobileNavLink from "./MobileNavLink";
 import ToggleButton from "./ToggleButton";
 import Link from "next/link";
 import Image from "next/image";
-
-const navLinks = [
-  {
-    title: "Home",
-    id: 1,
-    path: "/#home",
-  },
-  {
-    title: "Services",
-    id: 2,
-    path: "/#services",
-  },
-  {
-    title: "Works",
-    id: 3,
-    path: "/#works",
-  },
-  {
-    title: "Contact",
-    id: 4,
-    path: "/#contact",
-  },
-];
+import { navLinks } from "./NavLinks";
 
 const variants = {
   open: {

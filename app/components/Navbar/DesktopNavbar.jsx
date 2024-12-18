@@ -3,31 +3,14 @@ import AnimatedLink from "./AnimatedLink";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-const navLinks = [
-  {
-    title: "Home",
-    id: 1,
-    path: "/",
-  },
-  {
-    title: "Services",
-    id: 2,
-    path: "/#services",
-  },
-  {
-    title: "Works",
-    id: 3,
-    path: "/#works",
-  },
-  {
-    title: "Contact",
-    id: 4,
-    path: "/#contact",
-  },
-];
+import { navLinks } from "./NavLinks";
+
 const DesktopNavbar = () => {
   return (
-    <div className="fixed hidden px-6 font-navbar md:block md:w-auto" id="navbar">
+    <div
+      className="fixed hidden px-6 font-navbar md:block md:w-auto"
+      id="navbar"
+    >
       <Link href={"/"}>
         <Image
           src="/images/Logo.png"
@@ -52,7 +35,6 @@ const DesktopNavbar = () => {
               title={link.title}
               isLast={link.id + 1 === navLinks.length}
             />
-          
           </li>
         ))}
       </ul>

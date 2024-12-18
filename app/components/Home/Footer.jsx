@@ -7,7 +7,7 @@ const Footer = () => {
       className="flex flex-col items-start justify-between gap-6 px-8 py-24 md:flex-row md:px-20"
     >
       <a
-        className="text-5xl font-bold text-center md:w-1/2 text-brand-primary md:text-left"
+        className="text-5xl font-extrabold text-center md:w-1/2 text-brand-primary md:text-left font-heading"
         href="mailto:socalwebdesigninfo@gmail.com"
       >
         Let’s work together!
@@ -19,7 +19,7 @@ const Footer = () => {
           opportunity to make your mark on the canvas of existence. The only
           limit is the extent of your imagination.
         </p>
-        <a href="mailto:socalwebdesigninfo@gmail.com" className="text-[#585858]">
+        <a href="mailto:socalwebdesigninfo@gmail.com" className="text-[#828282] font-extralight">
           socalwebdesigninfo@gmail.com
         </a>
       </div>
