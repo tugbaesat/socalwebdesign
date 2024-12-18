@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <section
       id="contact"
-      className="flex flex-col items-start justify-between gap-6 px-8 py-24 md:flex-row md:px-36"
+      className="flex flex-col items-start justify-between gap-6 px-8 py-24 md:flex-row md:px-20"
     >
       <a
         className="text-5xl font-bold text-center md:w-1/2 text-brand-primary md:text-left"

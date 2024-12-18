@@ -1,14 +1,14 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { worksData } from "./Works";
+import { worksData } from "../Works/WorksData";
 import { useRouter } from "next/navigation";
 
 const WorksSection = () => {
   const router = useRouter();
 
   const handleClick = (id) => {
-    router.push(`/works/${id}`);
+    router.push(`/crossfit-the-arena`);
   };
 
   return (
@@ -22,7 +22,7 @@ const WorksSection = () => {
           <li
             className="relative overflow-hidden cursor-pointer group"
             key={work.id}
-            onClick={() => handleClick(work.id)}
+            onClick={() => router.push(`/crossfit-the-arena`)}
           >
             <Image
               src={work.image}
@@ -43,9 +43,11 @@ const WorksSection = () => {
                   ))}
                 </div>
               </div>
-              <p>{work.description}</p>
+              <p className="text-justify">{work.description}</p>
               <div className="w-24 border-b-2 cursor-pointer hover:text-neutral-800 dark:hover:text-neutral-400 border-neutral-600 hover:border-neutral-800 dark:border-neutral-200 dark:hover:border-neutral-400">
-                <p onClick={() => handleClick(work.id)}>See more &rarr;</p>
+                <p onClick={() => router.push(`/crossfit-the-arena`)}>
+                  See more &rarr;
+                </p>
               </div>
             </div>
           </li>

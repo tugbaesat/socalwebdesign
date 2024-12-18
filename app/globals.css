@@ -43,3 +43,8 @@ h6 {
     text-wrap: balance;
   }
 }
+.arena {
+  background-image: url("/images/arenaimages/gym-cover.jpg");
+  background-size: cover;
+  background-position: center;
+}

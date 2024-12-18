@@ -1,10 +1,10 @@
-import Hero from "./components/Hero";
-import Services from "./components/Services";
-import Footer from "./components/Footer";
-import Copyright from "./components/Copyright";
+import Hero from "./components/Home/Hero";
+import Services from "./components/Home/Services";
+import Footer from "./components/Home/Footer";
+import Copyright from "./components/Home/Copyright";
 import DesktopNavbar from "./components/Navbar/DesktopNavbar";
 import MobileNavbar from "./components/Navbar/MobileNavbar";
-import WorksSection from "./components/Works/WorksSection";
+import WorksSection from "./components/Home/WorksSection";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
         <DesktopNavbar />
       </div>
 
-      <div className="pt-36 md:pl-[300px] md:pt-0">
+      <div className="pt-36 md:pl-[300px] md:pt-0 w-full">
         <Hero />
         <Services />
         <WorksSection />
